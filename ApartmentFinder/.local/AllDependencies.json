@@ -32,13 +32,19 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
-      "CsvHelper/2.13.5": {
+      "CsvHelper/12.1.2": {
         "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
         "compile": {
-          "lib/net40-client/_._": {}
+          "lib/net45/_._": {}
         },
         "runtime": {
-          "lib/net40-client/CsvHelper.dll": {}
+          "lib/net45/CsvHelper.dll": {}
         }
       },
       "DocumentFormat.OpenXml/2.5.0": {
@@ -606,7 +612,6 @@
       "path": "avalonedit/5.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "avalonedit.5.0.3.nupkg.sha512",
         "avalonedit.nuspec",
         "lib/Net35/ICSharpCode.AvalonEdit.dll",
@@ -644,27 +649,19 @@
         "lib/net40/ClosedXML.xml"
       ]
     },
-    "CsvHelper/2.13.5": {
-      "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
+    "CsvHelper/12.1.2": {
+      "sha512": "SpMsKw74xuAMsYZ+tSQsHF9UYlZm6E+LBSwDPukGCy1dYLVJwM6ZR7gFhKWDMh7OR/1ba8t4UV/RraMJKx+mog==",
       "type": "package",
-      "path": "csvhelper/2.13.5",
+      "path": "csvhelper/12.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "csvhelper.2.13.5.nupkg.sha512",
+        "csvhelper.12.1.2.nupkg.sha512",
         "csvhelper.nuspec",
-        "lib/net20/CsvHelper.dll",
-        "lib/net20/CsvHelper.pdb",
-        "lib/net20/CsvHelper.xml",
-        "lib/net35-client/CsvHelper.dll",
-        "lib/net35-client/CsvHelper.pdb",
-        "lib/net35-client/CsvHelper.xml",
-        "lib/net40-client/CsvHelper.dll",
-        "lib/net40-client/CsvHelper.pdb",
-        "lib/net40-client/CsvHelper.xml",
-        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll",
-        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.pdb",
-        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml"
       ]
     },
     "DocumentFormat.OpenXml/2.5.0": {
@@ -764,7 +761,6 @@
       "path": "microsoft.exchange.webservices/2.2.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "doc/License Terms.rtf",
         "doc/README.htm",
         "doc/Redist.txt",
@@ -832,6 +828,7 @@
       "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -861,7 +858,6 @@
       "path": "npoi/2.4.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE",
         "Read Me.txt",
         "lib/NPOI.xml",
@@ -895,7 +891,6 @@
       "path": "sharpziplib/1.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/ICSharpCode.SharpZipLib.dll",
         "lib/net45/ICSharpCode.SharpZipLib.xml",
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
@@ -1293,6 +1288,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "CsvHelper >= 12.1.2 <= 12.1.2",
       "UiPath.Excel.Activities >= 2.6.3 <= 2.6.3",
       "UiPath.Mail.Activities >= 1.6.0 <= 1.6.0",
       "UiPath.System.Activities >= 19.8.0 <= 19.8.0",
@@ -1304,15 +1300,20 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Demo-Lab1Marti10",
-      "projectName": "Demo-Lab1Marti10",
-      "projectPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\Demo-Lab1Marti10\\.local",
+      "projectUniqueName": "ApartmentFinder",
+      "projectName": "ApartmentFinder",
+      "projectPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\ApartmentFinder\\.local",
       "packagesPath": "C:\\Users\\vladd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\Demo-Lab1Marti10\\.local"
+      "outputPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\ApartmentFinder\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "CsvHelper": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[12.1.2, 12.1.2]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -1342,57 +1343,8 @@
       "code": "NU3034",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Humanizer.Core 2.4.2' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Humanizer.Core"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json 11.0.2' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Newtonsoft.Json"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Extended.Wpf.Toolkit 2.8' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Extended.Wpf.Toolkit"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.FileSystemGlobbing 2.2.0' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Extensions.FileSystemGlobbing"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Rest.ClientRuntime 2.3.20' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Rest.ClientRuntime"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.SignalR.Client 2.4.0' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.AspNet.SignalR.Client"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.ValueTuple 4.5.0' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "System.ValueTuple"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle 1.8.5' from source 'C:\\Users\\vladd\\AppData\\Local\\UiPath\\app-19.9.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "BouncyCastle"
+      "message": "Package 'CsvHelper 12.1.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "CsvHelper"
     }
   ]
 }
