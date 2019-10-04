@@ -1296,15 +1296,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vladd\\.nuget\\packages\\": {}
+    "C:\\Users\\Vlad\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "ApartmentFinder",
       "projectName": "ApartmentFinder",
-      "projectPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\ApartmentFinder\\.local",
-      "packagesPath": "C:\\Users\\vladd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladd\\Desktop\\Automatizare\\ApartmentFinder\\.local"
+      "projectPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\ApartmentFinder\\.local",
+      "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\ApartmentFinder\\.local"
     },
     "frameworks": {
       "net461": {
