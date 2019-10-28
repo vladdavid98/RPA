@@ -2,49 +2,6 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "19.7.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Vlad\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath/19.7.7128.27029\\lib/UiPath.Interop.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.ocr.contracts/2.0.0\\lib/net45/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.7.0\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll"
-      ]
-    },
-    {
-      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.6.3"
       },
@@ -105,6 +62,49 @@
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.system.activities/19.8.0\\lib/net461/UiPath.OrchestratorClient.dll",
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.system.activities/19.8.0\\lib/net461/UiPath.System.Activities.Design.dll",
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.system.activities/19.8.0\\lib/net461/UiPath.System.Activities.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "19.8.0-ce"
+      },
+      "Assemblies": [
+        "C:\\Users\\Vlad\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath/19.8.7173.31251-ce\\lib/UiPath.Interop.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.ocr.contracts/2.1.0\\lib/net45/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.uiautomation.activities/19.8.0-ce\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.Core.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.dll"
       ]
     }
   ],
@@ -217,7 +217,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "19.7.7128.27029",
+      "Version": "19.8.7173.31251-ce",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -278,7 +278,7 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.0.0",
+      "Version": "2.1.0",
       "Dependencies": []
     },
     "UiPath.System.Activities": {
@@ -309,19 +309,19 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "19.7.0",
+      "Version": "19.8.0-ce",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[19.7.7128.27029, )"
+          "Item2": "[19.8.7173.31251-ce, )"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[1.6.1, )"
+          "Item2": "[1.7.0, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.0.0, )"
+          "Item2": "[2.1.0, )"
         },
         {
           "Item1": "AvalonEdit",
@@ -339,7 +339,7 @@
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "1.6.1",
+      "Version": "1.7.0",
       "Dependencies": []
     }
   }
