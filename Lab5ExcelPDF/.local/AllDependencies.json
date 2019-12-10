@@ -50,6 +50,15 @@
           "lib/net40-client/CsvHelper.dll": {}
         }
       },
+      "DataManipulations.Activities/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/DataManipulations.dll": {}
+        }
+      },
       "DocumentFormat.OpenXml/2.5.0": {
         "type": "package",
         "compile": {
@@ -808,6 +817,17 @@
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
       ]
     },
+    "DataManipulations.Activities/1.0.6": {
+      "sha512": "mPYKkkqPajATE6qJvbvLwyzyqL0r7/dnYWm6gj49tJAb+9n2jN2BcJIHeudw0WuntxOOhSpKwwJKUuMfm+qSSQ==",
+      "type": "package",
+      "path": "datamanipulations.activities/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "datamanipulations.activities.1.0.6.nupkg.sha512",
+        "datamanipulations.activities.nuspec",
+        "lib/net45/DataManipulations.dll"
+      ]
+    },
     "DocumentFormat.OpenXml/2.5.0": {
       "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
       "type": "package",
@@ -1479,6 +1499,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "DataManipulations.Activities >= 1.0.6 <= 1.0.6",
       "UiPath.Excel.Activities >= 2.6.3 <= 2.6.3",
       "UiPath.Mail.Activities >= 1.6.0 <= 1.6.0",
       "UiPath.PDF.Activities >= 3.1.0 <= 3.1.0",
@@ -1500,6 +1521,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "DataManipulations.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.6, 1.0.6]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

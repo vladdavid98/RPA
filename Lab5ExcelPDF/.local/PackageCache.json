@@ -120,6 +120,15 @@
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.dll"
       ]
+    },
+    {
+      "Package": {
+        "Id": "DataManipulations.Activities",
+        "Version": "1.0.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\Vlad\\.nuget\\packages\\datamanipulations.activities/1.0.6\\lib/net45/DataManipulations.dll"
+      ]
     }
   ],
   "Conflicts": [],
@@ -152,6 +161,11 @@
     "CsvHelper": {
       "Id": "CsvHelper",
       "Version": "2.13.5",
+      "Dependencies": []
+    },
+    "DataManipulations.Activities": {
+      "Id": "DataManipulations.Activities",
+      "Version": "1.0.6",
       "Dependencies": []
     },
     "DocumentFormat.OpenXml": {
