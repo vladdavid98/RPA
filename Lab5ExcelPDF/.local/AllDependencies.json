@@ -1493,9 +1493,9 @@
     "restore": {
       "projectUniqueName": "Lab5ExcelPDF",
       "projectName": "Lab5ExcelPDF",
-      "projectPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\Lab5ExcelPDF\\.local",
+      "projectPath": "C:\\Users\\Vlad\\Desktop\\RPA\\Lab5ExcelPDF\\.local",
       "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\Lab5ExcelPDF\\.local"
+      "outputPath": "C:\\Users\\Vlad\\Desktop\\RPA\\Lab5ExcelPDF\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1528,14 +1528,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BitMiracle.Docotic.Pdf 5.10.9957' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "BitMiracle.Docotic.Pdf"
-    }
-  ]
+  }
 }

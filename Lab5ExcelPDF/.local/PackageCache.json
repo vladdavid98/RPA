@@ -41,6 +41,20 @@
     },
     {
       "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Vlad\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.ocr.contracts/2.1.0\\lib/net45/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "19.8.0"
       },
@@ -105,20 +119,6 @@
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\Vlad\\.nuget\\packages\\uipath.vision/1.7.0\\lib/net452/UiPath.Vision.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Vlad\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.ocr.contracts/2.1.0\\lib/net45/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\Vlad\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.dll"
       ]
     }
   ],
