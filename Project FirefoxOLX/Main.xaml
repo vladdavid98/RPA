@@ -79,9 +79,9 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID10</x:Reference>
+      <x:Reference>__ReferenceID7</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID10">
+    <FlowStep x:Name="__ReferenceID7">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">90,14.5</av:Point>
@@ -112,7 +112,7 @@
               <av:PointCollection x:Key="ConnectorLocation">460,55.5 460,85.5 120,85.5 120,107</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Flowchart DisplayName="Write data in form" sap:VirtualizedContainerService.HintSize="648,636" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+          <Flowchart DisplayName="Write data in form" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -163,13 +163,12 @@
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,660" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,462" sap2010:WorkflowViewState.IdRef="Sequence_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Starting&quot;]" TopMost="True" />
                           <ui:TypeInto DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DelayBefore="250" DisplayName="Type Into 'SPAN'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_5" SendWindowMessages="False" SimulateType="False" Text="[pretPanaLa.ToString]">
                             <ui:TypeInto.Target>
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="748361df69ffc80897786a70f5d86d9c" Selector="&lt;webctrl aaname='Pret pana la (€)' parentid='param_price' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
@@ -181,7 +180,6 @@
                             </ui:TypeInto.Target>
                           </ui:TypeInto>
                           <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Done&quot;]" TopMost="True" />
                         </Sequence>
                       </ActivityAction>
                     </ui:BrowserScope.Body>
@@ -223,7 +221,6 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,59" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;SCRAPING STARTED&quot;]" TopMost="True" />
                 <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser 'Anunturia Page'" sap:VirtualizedContainerService.HintSize="434,252" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="fb6b257086948c693145be71f8e33e7f" Selector="&lt;html app='firefox.exe' title='Anunturi apartamente si garsoniere de vanzare Cluj-Napoca • OLX.*' /&gt;">
                   <ui:BrowserScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
@@ -288,242 +285,5 @@
     <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID5</x:Reference>
     <x:Reference>__ReferenceID6</x:Reference>
-    <FlowStep>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">450,327</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_22">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <Sequence sap:VirtualizedContainerService.HintSize="732,820" sap2010:WorkflowViewState.IdRef="Sequence_21">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="690,728" sap2010:WorkflowViewState.IdRef="Sequence_20">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Flowchart DisplayName="Write data in form" sap:VirtualizedContainerService.HintSize="648,636" sap2010:WorkflowViewState.IdRef="Flowchart_3">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <av:Point x:Key="ShapeLocation">20,2.5</av:Point>
-                  <av:Size x:Key="ShapeSize">60,75</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">80,40 130,40</av:PointCollection>
-                  <x:Double x:Key="Width">614</x:Double>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <Flowchart.StartNode>
-                <x:Reference>__ReferenceID9</x:Reference>
-              </Flowchart.StartNode>
-              <FlowStep x:Name="__ReferenceID8">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <av:Point x:Key="ShapeLocation">380,14.5</av:Point>
-                    <av:Size x:Key="ShapeSize">200,51</av:Size>
-                    <av:PointCollection x:Key="ConnectorLocation">580,40 610,40 610,74.5 110,74.5 110,104.5</av:PointCollection>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Open https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/cluj-napoca/" Hidden="False" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" NewSession="True" Private="False" Url="https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/cluj-napoca/">
-                  <ui:OpenBrowser.Body>
-                    <ActivityAction x:TypeArguments="x:Object">
-                      <ActivityAction.Argument>
-                        <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                      </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_15">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                      </Sequence>
-                    </ActivityAction>
-                  </ui:OpenBrowser.Body>
-                </ui:OpenBrowser>
-                <FlowStep.Next>
-                  <FlowStep x:Name="__ReferenceID7">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <av:Point x:Key="ShapeLocation">10,104.5</av:Point>
-                        <av:Size x:Key="ShapeSize">200,51</av:Size>
-                        <av:PointCollection x:Key="ConnectorLocation">110,155.5 110,155.5</av:PointCollection>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser, write data" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="39685d6c6af66cf1de309a236154a66f" Selector="&lt;html app='firefox.exe' omit:title='Anunturi apartamente si garsoniere de vanzare Cluj-Napoca • OLX.*' /&gt;" TimeoutMS="3500">
-                      <ui:BrowserScope.Body>
-                        <ActivityAction x:TypeArguments="x:Object">
-                          <ActivityAction.Argument>
-                            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                          </ActivityAction.Argument>
-                          <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="884,2276" sap2010:WorkflowViewState.IdRef="Sequence_19">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="842,830" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-                              <ui:CommentOut.Body>
-                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="418,752" sap2010:WorkflowViewState.IdRef="Sequence_17">
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,660" sap2010:WorkflowViewState.IdRef="Sequence_16">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;Starting&quot;]" TopMost="True" />
-                                    <ui:TypeInto DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DelayBefore="250" DisplayName="Type Into 'SPAN'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" SendWindowMessages="False" SimulateType="False" Text="[pretPanaLa.ToString]">
-                                      <ui:TypeInto.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="748361df69ffc80897786a70f5d86d9c" Selector="&lt;webctrl aaname='Pret pana la (€)' parentid='param_price' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:TypeInto.Target>
-                                    </ui:TypeInto>
-                                    <ui:TypeInto DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DelayBefore="250" DisplayName="Type Into 'SPAN'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_8" SendWindowMessages="False" SimulateType="False" Text="[suprafataUtilaDeLa.ToString]">
-                                      <ui:TypeInto.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="96893c7361dc97372339a17a973164aa" Selector="&lt;webctrl aaname='Suprafata utila de la' parentid='param_m' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:TypeInto.Target>
-                                    </ui:TypeInto>
-                                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Done&quot;]" TopMost="True" />
-                                  </Sequence>
-                                </Sequence>
-                              </ui:CommentOut.Body>
-                            </ui:CommentOut>
-                            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser 'Anunturia Page'" sap:VirtualizedContainerService.HintSize="842,1314" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="8f14a1d3c8832c5c87a25de89a63fd67" Selector="&lt;html app='firefox.exe' title='Anunturi apartamente si garsoniere de vanzare Cluj-Napoca • OLX.*' /&gt;">
-                              <ui:BrowserScope.Body>
-                                <ActivityAction x:TypeArguments="x:Object">
-                                  <ActivityAction.Argument>
-                                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                                  </ActivityAction.Argument>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="808,1168" sap2010:WorkflowViewState.IdRef="Sequence_18">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="766,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                                      <ui:Click.CursorPosition>
-                                        <ui:CursorPosition OffsetX="85" OffsetY="14" Position="TopLeft" />
-                                      </ui:Click.CursorPosition>
-                                      <ui:Click.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6395c8c88e1d4e6e2374adf1a3a45afb" Selector="&lt;webctrl aaname=' &#x9;&#x9;&#x9;&#x9;Pret pana la (€) &#x9;&#x9;&#x9;&#x9; &#x9;&#x9;&#x9;' parentid='param_price' tag='A' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:Click.Target>
-                                    </ui:Click>
-                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="766,106" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                                      <ui:Click.CursorPosition>
-                                        <ui:CursorPosition OffsetX="83" OffsetY="14" Position="TopLeft" />
-                                      </ui:Click.CursorPosition>
-                                      <ui:Click.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="1398ffeaa08c36c6f9ae473ae0782256" Selector="&lt;webctrl aaname=' &#x9;&#x9;&#x9;&#x9;Pret pana la (€) &#x9;&#x9;&#x9;&#x9; &#x9;&#x9;&#x9;' parentid='param_price' tag='A' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:Click.Target>
-                                    </ui:Click>
-                                    <ui:AnchorBase AnchorPosition="Right" sap:VirtualizedContainerService.HintSize="766,226" sap2010:WorkflowViewState.IdRef="AnchorBase_1">
-                                      <ui:AnchorBase.Action>
-                                        <ActivityAction x:TypeArguments="ui:Anchor">
-                                          <ActivityAction.Argument>
-                                            <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                                          </ActivityAction.Argument>
-                                          <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Action Type Into 'INPUT'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_9" SendWindowMessages="False" SimulateType="True" Text="[pretPanaLa.ToString]">
-                                            <ui:TypeInto.Target>
-                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0e5b8f76389153600ac0bbb4b3b91d18" Selector="&lt;webctrl tag='INPUT' type='text' /&gt;" WaitForReady="COMPLETE" />
-                                            </ui:TypeInto.Target>
-                                          </ui:TypeInto>
-                                        </ActivityAction>
-                                      </ui:AnchorBase.Action>
-                                      <ui:AnchorBase.AnchorProvider>
-                                        <ui:WaitUiElementAppear FoundElement="{x:Null}" DisplayName="Anchor Find Element 'A  headerLogo'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1" WaitActive="False" WaitVisible="False">
-                                          <ui:WaitUiElementAppear.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="5657e6160fc9cc8fd08ce28f09bbdc35" Selector="&lt;webctrl id='headerLogo' tag='A' /&gt;" WaitForReady="COMPLETE" />
-                                          </ui:WaitUiElementAppear.Target>
-                                        </ui:WaitUiElementAppear>
-                                      </ui:AnchorBase.AnchorProvider>
-                                    </ui:AnchorBase>
-                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="766,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                                      <ui:Click.CursorPosition>
-                                        <ui:CursorPosition OffsetX="96" OffsetY="15" Position="TopLeft" />
-                                      </ui:Click.CursorPosition>
-                                      <ui:Click.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b106b14c4ea3f62ac586028f9aaf7f60" Selector="&lt;webctrl aaname=' &#x9;&#x9;&#x9;&#x9;Suprafata utila de la &#x9;&#x9;&#x9;&#x9; &#x9;&#x9;&#x9;' parentid='param_m' tag='A' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:Click.Target>
-                                    </ui:Click>
-                                    <ui:AnchorBase AnchorPosition="Right" sap:VirtualizedContainerService.HintSize="766,226" sap2010:WorkflowViewState.IdRef="AnchorBase_2">
-                                      <ui:AnchorBase.Action>
-                                        <ActivityAction x:TypeArguments="ui:Anchor">
-                                          <ActivityAction.Argument>
-                                            <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                                          </ActivityAction.Argument>
-                                          <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Action Type Into 'INPUT'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_10" SendWindowMessages="False" SimulateType="True" Text="[suprafataUtilaDeLa.ToString]">
-                                            <ui:TypeInto.Target>
-                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0e5b8f76389153600ac0bbb4b3b91d18" Selector="&lt;webctrl tag='INPUT' type='text' /&gt;" WaitForReady="COMPLETE" />
-                                            </ui:TypeInto.Target>
-                                          </ui:TypeInto>
-                                        </ActivityAction>
-                                      </ui:AnchorBase.Action>
-                                      <ui:AnchorBase.AnchorProvider>
-                                        <ui:WaitUiElementAppear FoundElement="{x:Null}" DisplayName="Anchor Find Element 'A  headerLogo'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2" WaitActive="False" WaitVisible="False">
-                                          <ui:WaitUiElementAppear.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="5657e6160fc9cc8fd08ce28f09bbdc35" Selector="&lt;webctrl id='headerLogo' tag='A' /&gt;" WaitForReady="COMPLETE" />
-                                          </ui:WaitUiElementAppear.Target>
-                                        </ui:WaitUiElementAppear>
-                                      </ui:AnchorBase.AnchorProvider>
-                                    </ui:AnchorBase>
-                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  search-submit'" sap:VirtualizedContainerService.HintSize="766,106" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                                      <ui:Click.CursorPosition>
-                                        <ui:CursorPosition OffsetX="88" OffsetY="16" Position="TopLeft" />
-                                      </ui:Click.CursorPosition>
-                                      <ui:Click.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8ffb8f74ae517451d0644108234eb060" Selector="&lt;webctrl id='search-submit' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
-                                      </ui:Click.Target>
-                                    </ui:Click>
-                                  </Sequence>
-                                </ActivityAction>
-                              </ui:BrowserScope.Body>
-                            </ui:BrowserScope>
-                          </Sequence>
-                        </ActivityAction>
-                      </ui:BrowserScope.Body>
-                    </ui:BrowserScope>
-                    <FlowStep.Next>
-                      <x:Reference>__ReferenceID7</x:Reference>
-                    </FlowStep.Next>
-                  </FlowStep>
-                </FlowStep.Next>
-              </FlowStep>
-              <x:Reference>__ReferenceID7</x:Reference>
-              <FlowStep x:Name="__ReferenceID9">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <av:Point x:Key="ShapeLocation">130,14.5</av:Point>
-                    <av:Size x:Key="ShapeSize">200,51</av:Size>
-                    <av:PointCollection x:Key="ConnectorLocation">330,40 380,40</av:PointCollection>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ui:CloseApplication ContinueOnError="True" DisplayName="Close Application 'firefox.exe'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CloseApplication_3">
-                  <ui:CloseApplication.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="8dcbf6119dd29758a5c2626e809e456b" Selector="&lt;html app='firefox.exe' omit:title='New Tab' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
-                  </ui:CloseApplication.Target>
-                </ui:CloseApplication>
-                <FlowStep.Next>
-                  <x:Reference>__ReferenceID8</x:Reference>
-                </FlowStep.Next>
-              </FlowStep>
-            </Flowchart>
-          </Sequence>
-        </Sequence>
-      </Sequence>
-    </FlowStep>
   </Flowchart>
 </Activity>
