@@ -1040,9 +1040,9 @@
     "restore": {
       "projectUniqueName": "FirefoxOLX",
       "projectName": "FirefoxOLX",
-      "projectPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\FirefoxOLX\\.local",
+      "projectPath": "C:\\Users\\Vlad\\Desktop\\RPA\\Project FirefoxOLX\\.local",
       "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vlad\\Desktop\\automatizari\\RPA\\FirefoxOLX\\.local"
+      "outputPath": "C:\\Users\\Vlad\\Desktop\\RPA\\Project FirefoxOLX\\.local"
     },
     "frameworks": {
       "net461": {
